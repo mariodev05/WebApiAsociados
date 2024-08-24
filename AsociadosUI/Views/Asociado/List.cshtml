@@ -1,0 +1,55 @@
+﻿@model IEnumerable<AsociadosUI.Models.Context.Asociados>
+
+@{
+    ViewBag.Title = "List";
+}
+
+<h2>Control de salarios</h2>
+
+<button type="button" class="btn btn-outline-secondary">
+    @Html.ActionLink("Agregar asociado", "Agregar")
+</button>
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">
+                @Html.DisplayNameFor(model => model.Nombre_Asociado)
+            </th>
+            <th scope="col">
+                @Html.DisplayNameFor(model => model.Num_Asociado)
+            </th>
+            <th scope="col">
+                @Html.DisplayNameFor(model => model.Id_Salario)
+            </th>
+            <th scope="col">
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+
+            <th scope="col">mantenimiento</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Num_Asociado)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nombre_Asociado)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id_Salario)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+
+                <td>
+                    @Html.ActionLink("Edit", "Editar", new { id = item.Id }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

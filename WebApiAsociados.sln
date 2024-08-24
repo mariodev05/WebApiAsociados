@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35219.272
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiAsociados", "WebApiAsociados\WebApiAsociados.csproj", "{93BF8291-F62C-4DA7-A1A3-B9C39E9B21AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiAsociados", "WebApiAsociados\WebApiAsociados.csproj", "{93BF8291-F62C-4DA7-A1A3-B9C39E9B21AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsociadosUI", "AsociadosUI\AsociadosUI.csproj", "{096CD7D9-CD7E-495B-BFC1-4DB28BF5FFDD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{93BF8291-F62C-4DA7-A1A3-B9C39E9B21AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93BF8291-F62C-4DA7-A1A3-B9C39E9B21AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93BF8291-F62C-4DA7-A1A3-B9C39E9B21AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{096CD7D9-CD7E-495B-BFC1-4DB28BF5FFDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{096CD7D9-CD7E-495B-BFC1-4DB28BF5FFDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{096CD7D9-CD7E-495B-BFC1-4DB28BF5FFDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{096CD7D9-CD7E-495B-BFC1-4DB28BF5FFDD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
